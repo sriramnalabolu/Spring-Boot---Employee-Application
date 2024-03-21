@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Welcome</title>
+      <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}"/>
+   </head>
+   <body>
+      <h1>Welcome</h1>
+      <div>
+      <a th:href="@{/registration_form}">Go to Employee Registration Form</a><br />
+      <a th:href="@{/delete_form}">Delete an Employee</a><br />   
+      <a th:href="@{/search_form}">Search an Employee</a><br />
+      <a th:href="@{/update_id_form}">Update Employee by ID</a>
+      </div> 
+   </body>
+</html>
